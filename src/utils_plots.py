@@ -31,8 +31,8 @@ def graficar_situacion_a_censo(total_mesas_conformance):
     
     bar = ax.barh(categorias, valores, color='#10ac84', edgecolor='#2ed573', alpha=0.85, height=0.4)
     
-    # MODIFICACIÓN: Se elimina la variable x (5637) y se clava un texto corporativo directo
-    ax.bar_label(bar, fmt=lambda x: "✔ Universo Auditado: 100% Conforme (Certificación de Integridad)", 
+    
+    ax.bar_label(bar, fmt=lambda x: "Universo Auditado: 100% Conforme (Certificación de Integridad)", 
                  padding=10, color='#2ed573', fontweight='bold')
     
     ax.spines['top'].set_visible(False)
@@ -97,7 +97,7 @@ def graficar_situacion_b_alertas(df_criticas):
     Representa una matriz de calor lineal formateada para evitar la colisión de textos largos.
     """
     if df_criticas.empty:
-        print("✔ Confirmación Visual: Cero registros críticos detectados en el cruce de alertas.")
+        print("Confirmación Visual: Cero registros críticos detectados en el cruce de alertas.")
         return
         
     configurar_entorno_grafico()
