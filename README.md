@@ -1,50 +1,36 @@
-\# Auditoría Analítica de Datos Electorales
+# 📊 Auditoría Analítica de Datos Electorales (Colombia 2026)
 
+![Analista de Datos](https://img.shields.io/badge/Rol-Analista%20de%20Datos-blue?style=for-the-badge)
+![Ingeniería de Sistemas](https://img.shields.io/badge/Formaci%C3%B3n-Ingeniero%20de%20Sistemas-orange?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.10%2B-green?style=for-the-badge)
 
+### 🧑‍💻 Desarrollado por:
+**Kevin David Medina Acosta** *Analista de Datos | Ingeniero de Sistemas en Formación* ✉️ [kevinacostadavidmedina@gmail.com](mailto:kevinacostadavidmedina@gmail.com)  
+📅 *Fecha de Creación: Junio de 2026*
 
-\*\*Kevin David Medina Acosta\*\*
+---
 
-\*Analista de Datos | Ingeniero de Sistemas en Formación\*
+> [!IMPORTANT]
+> **Aviso de Exención de Responsabilidad y Alcance del Proyecto:** > Este proyecto se desarrolla con fines estrictamente académicos, profesionales y de demostración de competencias en ingeniería de sistemas y analítica de datos. No promueve, incita ni respalda posturas políticas, ideológicas ni acusaciones de ninguna índole. El análisis se fundamenta exclusivamente en datos de carácter público, compartidos el 2 de junio de 2026 a través de la cuenta oficial de Facebook del entonces presidente Gustavo Petro, con el objetivo de auditar los datos suministrados mediante un flujo metodológico riguroso e independiente.
 
-✉️ kevinacostadavidmedina@gmail.com
+---
 
-📅 \*Fecha de Creación: Junio de 2026\*
+## 🔍 Descripción del Proyecto
 
+Este repositorio contiene un sistema de analítica de datos de extremo a extremo diseñado bajo estándares de ingeniería de software. Su propósito principal es auditar de manera objetiva los conjuntos de datos públicos suministrados en plataformas digitales respecto a las mesas electorales. Utilizando el lenguaje de programación Python y técnicas estructuradas de validación, el sistema procesa, limpia y cruza las variables del dataset con el fin de identificar anomalías estadísticas o inconsistencias en los registros de votantes, garantizando la total reproducibilidad de los resultados.
 
+---
 
-\---
+## 📁 Estructura del Repositorio
 
+El proyecto implementa una arquitectura limpia:
 
-
-> \\\\\\\*\\\\\\\*Aviso de Exención de Responsabilidad y Alcance del Proyecto:\\\\\\\*\\\\\\\* Este proyecto se desarrolla con fines estrictamente académicos, profesionales y de demostración de competencias en ingeniería de sistemas y analítica de datos. No promueve, incita ni respalda posturas políticas, ideológicas ni acusaciones de ninguna índole. El análisis se fundamenta exclusivamente en datos de carácter público, compartidos el 2 de junio de 2026 a través de la cuenta oficial de Facebook del entonces presidente Gustavo Petro, con el objetivo de auditar los datos suministrados.
-
-
-
-\## Descripción del Proyecto
-
-Se analiza el dataset compartido el 2 de junio de 2026 a través de la cuenta oficial de Facebook del entonces presidente Gustavo Petro, con el objetivo de auditar los datos suministrados.
-
-
-
-\## Síntesis Ejecutiva (Conclusiones Clave)
-
-\* \*\*Validación:\*\* El 100% de las mesas analizadas se mantuvo dentro de la capacidad legal de votantes.
-
-\* \*\*Optimización:\*\* El sistema redujo con éxito el universo de alertas a únicamente \*\*3 mesas críticas\*\* (EAFIT Mesa 4, I.E. América Mesa 1 y Santa Inés Mesa 2), permitiendo priorizar la revisión manual de forma eficiente por errores de registro o duplicidad.
-
-
-
-Este hallazgo valida el balance oficial de la Registraduría Nacional, cuyo escrutinio coincidió en un 99.94% con el preconteo, lo que “evidencia que las modificaciones fueron mínimas y que el proceso de consolidación y divulgación de resultados ha sido exitoso”, según reportó \[EL PAÍS América Colombia](https://elpais.com/america-colombia/elecciones-presidenciales/2026-06-02/petro-insiste-en-cuestionar-las-elecciones-presento-las-bases-comprobadas-del-posible-fraude.html).
-
-
-
-\## Configuración Técnica
-
-
-
-1\. Clonar el repositorio.
-
-2\. Crear y activar el entorno virtual (venv) en la carpeta principal (auditoria-electoral-31-mayo-2026).
-
-3\. Instalar dependencias ejecutanado: pip install -r requirements.txt
-
+```text
+auditoria-electoral-colombia/
+├── data/               # Datasets electorales (Archivos de datos crudos y procesados)
+├── notebooks/          # Jupyter Notebooks utilizados para el Análisis Exploratorio de Datos (EDA)
+├── reports/            # Síntesis ejecutiva, reportes técnicos y entregables finales
+├── src/                # Scripts de código fuente (.py) para la automatización del pipeline
+├── .gitignore          # Archivos, entornos virtuales y cachés excluidos del control de versiones
+├── README.md           # Documentación principal y guía del proyecto
+└── requirements.txt    # Manifiesto de dependencias y librerías del proyecto
