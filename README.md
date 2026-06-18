@@ -1,4 +1,4 @@
-# 📊 Auditoría Analítica de Datos Electorales (Colombia 2026)
+# Auditoría Analítica de Datos Electorales (Colombia 2026)
 
 ![Analista de Datos](https://img.shields.io/badge/Rol-Analista%20de%20Datos-blue?style=for-the-badge)
 ![Ingeniería de Sistemas](https://img.shields.io/badge/Formaci%C3%B3n-Ingeniero%20de%20Sistemas-orange?style=for-the-badge)
