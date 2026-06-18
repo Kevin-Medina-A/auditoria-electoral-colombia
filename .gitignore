@@ -8,6 +8,6 @@
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 
-# Entornos virtuales (por si creaste uno con Anaconda o venv)
+# Entornos virtuales 
 .venv/
 venv/
