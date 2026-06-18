@@ -17,7 +17,7 @@
 
 ## Descripción del Proyecto
 
-Este repositorio contiene un sistema de analítica de datos de extremo a extremo diseñado bajo estándares de ingeniería de software. Su propósito principal es auditar de manera objetiva los conjuntos de datos públicos suministrados en plataformas digitales respecto a las mesas electorales. Utilizando el lenguaje de programación Python y técnicas estructuradas de validación, el sistema procesa, limpia y cruza las variables del dataset con el fin de identificar anomalías estadísticas o inconsistencias en los registros de votantes, garantizando la total reproducibilidad de los resultados.
+Este repositorio contiene un sistema de analítica de datos. Su propósito principal es auditar de manera objetiva los conjuntos de datos públicos suministrados en plataformas digitales respecto a las mesas electorales. Utilizando el lenguaje de programación Python y técnicas estructuradas de validación, el sistema procesa, limpia y cruza las variables del dataset con el fin de identificar anomalías estadísticas o inconsistencias en los registros de votantes, garantizando la total reproducibilidad de los resultados.
 
 ---
 
